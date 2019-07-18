@@ -12,6 +12,8 @@
 */
 
 
+use App\Models\User;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -56,5 +58,22 @@ Route::namespace('Admin')->prefix('admin')->group(function () {
 
         //删除角色
         Route::delete('del', 'RoleController@del');
+    });
+
+    Route::prefix('/users')->group(function () {
+        // 获取用户列表
+        Route::get('getUsers', 'UserController@getUsers');
+
+        //根据ID获取一名用户信息
+        Route::get('getUser', 'UserController@getUser');
+
+        //添加用户
+        Route::post('add', 'UserController@add');
+
+        //编辑用户
+        Route::put('edit', 'UserController@edit');
+
+        //删除用户
+        Route::delete('del', 'UserController@del');
     });
 });
