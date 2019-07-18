@@ -11,8 +11,8 @@ namespace App\Models;
 
 use App\Utils\Utils;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use phpDocumentor\Reflection\Types\Self_;
 
 class BaseModel extends Model
 {
@@ -34,4 +34,9 @@ class BaseModel extends Model
     public static function getOne($condition) {
         return self::where($condition)->first();
     }
+
+    public static function deleteWhere($condition) {
+        return self::where($condition)->delete();
+    }
+
 }

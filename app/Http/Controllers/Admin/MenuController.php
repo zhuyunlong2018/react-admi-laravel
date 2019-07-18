@@ -41,10 +41,22 @@ class MenuController extends Controller
     /**
      * 编辑菜单
      * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
      */
     public function edit(Request $request) {
         $menu = Menu::getOne(['key' => $request->input("key")]);
         MenuLogic::update($menu, $request);
+        return Response::ok();
+    }
+
+    /**
+     * 删除菜单
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function del(Request $request) {
+        $key = $request->input("key");
+        Menu::deleteWhere(["key" => $key]);
         return Response::ok();
     }
 

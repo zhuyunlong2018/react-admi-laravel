@@ -39,5 +39,22 @@ Route::namespace('Admin')->prefix('admin')->group(function () {
 
         //编辑菜单
         Route::put('edit', 'MenuController@edit');
+
+        //删除菜单
+        Route::delete('del', 'MenuController@del');
+    });
+
+    Route::prefix('/roles')->group(function () {
+        // 获取角色列表
+        Route::get('getRoles', 'RoleController@getRoles');
+
+        //添加角色
+        Route::post('add', 'RoleController@add');
+
+        //编辑角色
+        Route::put('edit', 'RoleController@edit');
+
+        //删除角色
+        Route::delete('del', 'RoleController@del');
     });
 });

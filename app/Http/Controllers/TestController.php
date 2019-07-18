@@ -11,13 +11,14 @@ namespace App\Http\Controllers;
 
 
 use App\Models\Menu;
+use App\Models\Role;
+use Illuminate\Support\Facades\Log;
 
 class TestController extends Controller
 {
     public function test() {
-        $value = new Menu();
-        $value->parentKey = 'dddfadsf';
-        $value->save();
+        $value = Role::all();
+//        Log::debug($value);
         return ($value);
     }
 

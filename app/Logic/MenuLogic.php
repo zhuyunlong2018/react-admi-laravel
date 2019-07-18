@@ -22,6 +22,8 @@ class MenuLogic
     /**
      * 添加或更新
      * @param Menu $menu
+     * @param Request $request
+     * @return bool
      */
     public static function update(Menu $menu, Request $request) {
         $menu->parentKey = $request->input("parentKey");

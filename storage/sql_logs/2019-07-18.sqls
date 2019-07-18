@@ -1,0 +1,550 @@
+[2019-07-18 01:36:08]select * from `lr_menus`
+
+[2019-07-18 01:36:08]select * from `lr_menus`
+
+[2019-07-18 01:36:24]select * from `lr_menus`
+
+[2019-07-18 01:36:24]select * from `lr_menus`
+
+[2019-07-18 01:37:37]select * from `lr_menus`
+
+[2019-07-18 01:39:44]select * from `lr_menus`
+
+[2019-07-18 01:39:44]select * from `lr_menus`
+
+[2019-07-18 01:41:20]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:41:38]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:42:29]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:42:30]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:43:23]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:43:29]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:43:48]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:43:59]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:44:03]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:44:49]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:44:50]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:45:43]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:45:44]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:45:52]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:45:53]insert into `lr_menus` (`parent_key`) values (?)
+parmars:["dddfadsf"]
+
+[2019-07-18 01:53:02]select * from `lr_menus`
+
+[2019-07-18 01:53:02]select * from `lr_menus`
+
+[2019-07-18 01:56:16]select * from `lr_menus`
+
+[2019-07-18 01:56:16]select * from `lr_menus`
+
+[2019-07-18 01:58:22]select * from `lr_menus`
+
+[2019-07-18 01:58:23]select * from `lr_menus`
+
+[2019-07-18 01:58:27]delete from `lr_menus` where (`key` = ?)
+parmars:["20190717094947lFxAq"]
+
+[2019-07-18 01:58:28]select * from `lr_menus`
+
+[2019-07-18 02:06:37]select * from `lr_menus`
+
+[2019-07-18 02:06:37]select * from `lr_menus`
+
+[2019-07-18 02:07:28]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[3]
+
+[2019-07-18 02:07:55]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:08:07]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:08:09]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:08:14]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:08:29]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:09:16]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:09:25]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:10:19]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:10:20]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:10:54]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:10:54]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:11:02]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:11:03]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:11:08]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:11:08]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:12:07]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:12:07]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:12:36]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:12:36]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:20:30]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:20:31]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:12]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:13]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:14]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:14]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:24]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:25]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:35]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:21:37]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:26:22]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:26:29]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:26:30]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:26:39]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:26:40]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:26:53]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:31:32]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:31:39]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:32:34]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:33:35]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:34:28]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:34:59]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:35:11]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:37:22]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:37:24]select * from `lr_menus` where `lr_menus`.`id` = ? limit 1
+parmars:[20]
+
+[2019-07-18 02:37:36]select * from `lr_menus`
+
+[2019-07-18 02:37:37]select * from `lr_menus`
+
+[2019-07-18 02:40:50]select * from `lr_menus`
+
+[2019-07-18 02:48:21]select * from `lr_menus`
+
+[2019-07-18 02:49:36]select * from `lr_menus`
+
+[2019-07-18 02:49:53]select * from `lr_menus`
+
+[2019-07-18 02:50:04]select * from `lr_menus`
+
+[2019-07-18 02:50:14]select * from `lr_menus`
+
+[2019-07-18 02:50:50]select * from `lr_menus`
+
+[2019-07-18 02:52:26]select * from `lr_menus`
+
+[2019-07-18 02:52:26]select * from `lr_roles`
+
+[2019-07-18 02:52:55]select * from `lr_menus`
+
+[2019-07-18 02:52:55]select * from `lr_roles`
+
+[2019-07-18 02:53:22]select * from `lr_menus`
+
+[2019-07-18 02:53:22]select * from `lr_roles`
+
+[2019-07-18 02:54:03]select * from `lr_menus`
+
+[2019-07-18 02:54:03]select * from `lr_roles`
+
+[2019-07-18 02:54:52]select * from `lr_menus`
+
+[2019-07-18 02:54:53]select * from `lr_roles`
+
+[2019-07-18 02:56:27]select * from `lr_menus`
+
+[2019-07-18 02:56:27]select * from `lr_roles`
+
+[2019-07-18 02:57:03]select * from `lr_menus`
+
+[2019-07-18 02:57:03]select * from `lr_roles`
+
+[2019-07-18 02:57:33]select * from `lr_menus`
+
+[2019-07-18 02:57:33]select * from `lr_roles`
+
+[2019-07-18 02:59:11]select * from `lr_menus`
+
+[2019-07-18 02:59:11]select * from `lr_menus`
+
+[2019-07-18 02:59:12]select * from `lr_roles`
+
+[2019-07-18 02:59:31]select * from `lr_menus`
+
+[2019-07-18 02:59:31]select * from `lr_roles`
+
+[2019-07-18 03:00:07]select * from `lr_menus`
+
+[2019-07-18 03:00:08]select * from `lr_menus`
+
+[2019-07-18 03:00:08]select * from `lr_roles`
+
+[2019-07-18 03:04:46]select * from `lr_menus`
+
+[2019-07-18 03:04:46]select * from `lr_menus`
+
+[2019-07-18 03:04:46]select * from `lr_roles`
+
+[2019-07-18 03:08:12]select * from `lr_menus`
+
+[2019-07-18 03:08:12]select * from `lr_roles`
+
+[2019-07-18 03:08:39]select * from `lr_menus`
+
+[2019-07-18 03:08:39]select * from `lr_roles`
+
+[2019-07-18 03:09:15]select * from `lr_roles`
+
+[2019-07-18 03:09:33]select * from `lr_roles`
+
+[2019-07-18 03:10:05]select * from `lr_roles`
+
+[2019-07-18 03:10:11]select * from `lr_menus`
+
+[2019-07-18 03:10:11]select * from `lr_roles`
+
+[2019-07-18 03:11:26]select * from `lr_menus`
+
+[2019-07-18 03:11:26]select * from `lr_menus`
+
+[2019-07-18 03:11:27]select * from `lr_roles`
+
+[2019-07-18 03:12:47]select * from `lr_menus`
+
+[2019-07-18 03:12:48]select * from `lr_menus`
+
+[2019-07-18 03:12:48]select * from `lr_roles`
+
+[2019-07-18 03:14:00]select * from `lr_menus`
+
+[2019-07-18 03:14:00]select * from `lr_menus`
+
+[2019-07-18 03:14:00]select * from `lr_roles`
+
+[2019-07-18 03:14:35]select * from `lr_menus`
+
+[2019-07-18 03:14:35]select * from `lr_menus`
+
+[2019-07-18 03:14:35]select * from `lr_roles`
+
+[2019-07-18 03:15:02]select * from `lr_menus`
+
+[2019-07-18 03:15:02]select * from `lr_roles`
+
+[2019-07-18 03:15:02]select * from `lr_menus`
+
+[2019-07-18 03:15:14]select * from `lr_menus`
+
+[2019-07-18 03:15:14]select * from `lr_menus`
+
+[2019-07-18 03:15:14]select * from `lr_roles`
+
+[2019-07-18 03:16:36]select * from `lr_menus`
+
+[2019-07-18 03:16:36]select * from `lr_menus`
+
+[2019-07-18 03:16:37]select * from `lr_roles`
+
+[2019-07-18 03:17:41]select * from `lr_menus`
+
+[2019-07-18 03:17:41]select * from `lr_menus`
+
+[2019-07-18 03:17:41]select * from `lr_roles`
+
+[2019-07-18 03:18:34]select * from `lr_menus`
+
+[2019-07-18 03:18:34]select * from `lr_menus`
+
+[2019-07-18 03:18:35]select * from `lr_roles`
+
+[2019-07-18 03:21:28]select * from `lr_menus`
+
+[2019-07-18 03:21:28]select * from `lr_menus`
+
+[2019-07-18 03:21:28]select * from `lr_roles`
+
+[2019-07-18 03:21:55]select * from `lr_menus`
+
+[2019-07-18 03:21:55]select * from `lr_menus`
+
+[2019-07-18 03:21:55]select * from `lr_roles`
+
+[2019-07-18 03:23:33]select * from `lr_menus`
+
+[2019-07-18 03:23:33]select * from `lr_menus`
+
+[2019-07-18 03:23:33]select * from `lr_roles`
+
+[2019-07-18 03:23:43]select * from `lr_menus`
+
+[2019-07-18 03:23:43]select * from `lr_menus`
+
+[2019-07-18 03:23:43]select * from `lr_roles`
+
+[2019-07-18 03:24:24]select * from `lr_menus`
+
+[2019-07-18 03:24:24]select * from `lr_menus`
+
+[2019-07-18 03:24:24]select * from `lr_roles`
+
+[2019-07-18 03:27:14]select * from `lr_menus`
+
+[2019-07-18 03:27:44]select * from `lr_menus`
+
+[2019-07-18 03:27:44]select * from `lr_menus`
+
+[2019-07-18 03:27:44]select * from `lr_roles`
+
+[2019-07-18 03:27:55]select * from `lr_menus`
+
+[2019-07-18 03:27:55]select * from `lr_roles`
+
+[2019-07-18 03:28:09]select * from `lr_menus`
+
+[2019-07-18 03:28:09]select * from `lr_menus`
+
+[2019-07-18 03:28:10]select * from `lr_roles`
+
+[2019-07-18 03:28:30]select * from `lr_menus`
+
+[2019-07-18 03:28:30]select * from `lr_menus`
+
+[2019-07-18 03:28:30]select * from `lr_roles`
+
+[2019-07-18 03:31:51]select * from `lr_menus`
+
+[2019-07-18 03:31:51]select * from `lr_menus`
+
+[2019-07-18 03:31:51]select * from `lr_roles`
+
+[2019-07-18 03:33:06]select * from `lr_menus`
+
+[2019-07-18 03:33:06]select * from `lr_menus`
+
+[2019-07-18 03:33:06]select * from `lr_roles`
+
+[2019-07-18 03:46:12]select * from `lr_menus`
+
+[2019-07-18 03:46:12]select * from `lr_menus`
+
+[2019-07-18 03:46:12]select * from `lr_roles`
+
+[2019-07-18 03:46:24]select * from `lr_roles` where (`id` = ?) limit 1
+parmars:[1]
+
+[2019-07-18 03:47:24]select * from `lr_roles` where (`id` = ?) limit 1
+parmars:[1]
+
+[2019-07-18 03:47:24]update `lr_roles` set `name` = ?, `description` = ?, `permissions` = ? where `id` = ?
+parmars:["admin1","超级管理员1","",1]
+
+[2019-07-18 03:47:31]select * from `lr_menus`
+
+[2019-07-18 03:47:31]select * from `lr_roles`
+
+[2019-07-18 03:49:41]select * from `lr_menus`
+
+[2019-07-18 03:49:41]select * from `lr_menus`
+
+[2019-07-18 03:49:41]select * from `lr_roles`
+
+[2019-07-18 03:50:33]select * from `lr_menus`
+
+[2019-07-18 03:50:33]select * from `lr_menus`
+
+[2019-07-18 03:50:33]select * from `lr_roles`
+
+[2019-07-18 03:51:51]select * from `lr_roles` where (`id` = ?) limit 1
+parmars:[1]
+
+[2019-07-18 03:54:17]select * from `lr_menus`
+
+[2019-07-18 03:54:17]select * from `lr_menus`
+
+[2019-07-18 03:54:17]select * from `lr_roles`
+
+[2019-07-18 03:56:34]select * from `lr_menus`
+
+[2019-07-18 03:56:34]select * from `lr_menus`
+
+[2019-07-18 03:56:34]select * from `lr_roles`
+
+[2019-07-18 03:56:42]select * from `lr_roles` where (`id` = ?) limit 1
+parmars:[1]
+
+[2019-07-18 03:56:42]update `lr_roles` set `name` = ?, `permissions` = ? where `id` = ?
+parmars:["admin2",",antDesign,document,201907170951063dTU7,menus,codeGenerator,ajax,user,role,component,/example/antd/operator,/example/antd/async-select,/example/antd/user-avatar,/example/antd/tool-bar,/example/antd/table-row-draggable,/example/antd/table-editable,/example/antd/query-item,/example/antd/form-element,/example/antd/query-bar,/example/antd/pagination,page404,user-center,",1]
+
+[2019-07-18 03:56:52]select * from `lr_menus`
+
+[2019-07-18 03:56:52]select * from `lr_roles`
+
+[2019-07-18 03:57:16]insert into `lr_roles` (`name`, `description`, `permissions`) values (?, ?, ?)
+parmars:["guester","客人","antDesign,document,201907170951063dTU7,menus,codeGenerator,ajax,user,role,page404,user-center,"]
+
+[2019-07-18 03:57:24]select * from `lr_menus`
+
+[2019-07-18 03:57:25]select * from `lr_menus`
+
+[2019-07-18 03:57:25]select * from `lr_roles`
+
+[2019-07-18 03:59:07]select * from `lr_menus`
+
+[2019-07-18 03:59:08]select * from `lr_menus`
+
+[2019-07-18 03:59:08]select * from `lr_roles`
+
+[2019-07-18 03:59:15]select * from `lr_roles` where (`id` = ?) limit 1
+parmars:[2]
+
+[2019-07-18 03:59:15]update `lr_roles` set `description` = ?, `permissions` = ? where `id` = ?
+parmars:["客人角色","antDesign,document,201907170951063dTU7,menus,codeGenerator,ajax,user,role,page404,user-center,,",2]
+
+[2019-07-18 03:59:31]insert into `lr_roles` (`name`, `description`, `permissions`) values (?, ?, ?)
+parmars:["role2","fasdfa发的发","201907170951063dTU7,codeGenerator,"]
+
+[2019-07-18 03:59:41]select * from `lr_menus`
+
+[2019-07-18 03:59:41]select * from `lr_menus`
+
+[2019-07-18 03:59:41]select * from `lr_roles`
+
+[2019-07-18 03:59:56]select * from `lr_menus`
+
+[2019-07-18 03:59:56]select * from `lr_roles`
+
+[2019-07-18 03:59:56]select * from `lr_menus`
+
+[2019-07-18 06:13:27]select * from `lr_menus`
+
+[2019-07-18 06:13:27]select * from `lr_menus`
+
+[2019-07-18 06:13:27]select * from `lr_roles`
+
+[2019-07-18 06:14:15]select * from `lr_menus`
+
+[2019-07-18 06:14:15]select * from `lr_menus`
+
+[2019-07-18 06:14:15]select * from `lr_roles`
+
+[2019-07-18 06:14:23]select * from `lr_menus`
+
+[2019-07-18 06:14:24]select * from `lr_menus`
+
+[2019-07-18 06:14:24]select * from `lr_roles`
+
+[2019-07-18 06:14:42]select * from `lr_menus`
+
+[2019-07-18 06:14:42]select * from `lr_menus`
+
+[2019-07-18 06:14:42]select * from `lr_roles`
+
+[2019-07-18 06:15:17]select * from `lr_menus`
+
+[2019-07-18 06:15:17]select * from `lr_menus`
+
+[2019-07-18 06:15:17]select * from `lr_roles`
+
+[2019-07-18 06:15:19]delete from `lr_roles` where (`id` = ?)
+parmars:[3]
+
