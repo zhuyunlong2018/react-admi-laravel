@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use App\Utils\Response;
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
@@ -29,7 +30,7 @@ class Handler extends ExceptionHandler
     /**
      * Report or log an exception.
      *
-     * @param  \Exception  $exception
+     * @param  \Exception $exception
      * @return void
      */
     public function report(Exception $exception)
@@ -40,12 +41,31 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Exception  $exception
+     * @param  \Illuminate\Http\Request $request
+     * @param  \Exception $exception
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $exception)
     {
-        return parent::render($request, $exception);
+        if (config('app.debug')) {
+//            return parent::render($request, $exception);
+        }
+        return $this->handle($request, $exception);
+    }
+
+    /**
+     * 接管exception处理
+     * @param $request
+     * @param Exception $exception
+     * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\Response|\Symfony\Component\HttpFoundation\Response
+     */
+    public function handle($request, Exception $exception)
+    {
+        // 只处理自定义的APIException异常
+        if ($exception instanceof ApiException) {
+            return Response::error($exception);
+        } else {
+            return parent::render($request, $exception);
+        }
     }
 }

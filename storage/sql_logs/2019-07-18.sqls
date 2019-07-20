@@ -1210,3 +1210,127 @@ parmars:["antDesign"]
 
 [2019-07-18 09:23:57]select * from `lr_users` limit 10 offset 0
 
+[2019-07-18 09:32:41]select * from `lr_menus`
+
+[2019-07-18 09:32:41]select * from `lr_menus`
+
+[2019-07-18 09:34:32]select * from `lr_menus`
+
+[2019-07-18 09:34:32]select * from `lr_menus`
+
+[2019-07-18 09:35:18]select * from `lr_menus`
+
+[2019-07-18 09:35:18]select * from `lr_menus`
+
+[2019-07-18 09:38:26]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:38:26]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:40:06]select * from `lr_menus`
+
+[2019-07-18 09:40:06]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:40:06]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:40:39]select * from `lr_menus`
+
+[2019-07-18 09:40:39]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:40:39]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:41:35]select * from `lr_menus`
+
+[2019-07-18 09:41:36]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:41:36]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:42:29]select * from `lr_menus`
+
+[2019-07-18 09:42:30]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:42:30]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:45:45]select * from `lr_menus`
+
+[2019-07-18 09:45:45]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:45:45]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:46:53]select * from `lr_menus`
+
+[2019-07-18 09:46:54]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:46:54]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:47:45]select * from `lr_menus`
+
+[2019-07-18 09:47:45]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:47:45]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:49:13]select * from `lr_menus`
+
+[2019-07-18 09:49:13]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:49:13]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:50:20]select * from `lr_menus`
+
+[2019-07-18 09:50:20]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:50:20]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:50:56]select * from `lr_menus`
+
+[2019-07-18 09:50:56]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:50:56]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:54:19]select * from `lr_menus`
+
+[2019-07-18 09:54:19]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:54:19]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:54:54]select * from `lr_menus`
+
+[2019-07-18 09:54:54]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:54:54]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:55:54]select * from `lr_menus`
+
+[2019-07-18 09:55:54]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:55:54]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:56:52]select * from `lr_menus`
+
+[2019-07-18 09:56:52]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:56:52]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 09:57:36]select * from `lr_menus`
+
+[2019-07-18 09:57:36]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 09:57:36]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 10:00:46]select * from `lr_menus`
+
+[2019-07-18 10:00:46]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 10:00:46]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 10:01:19]select * from `lr_menus`
+
+[2019-07-18 10:01:19]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 10:01:19]select * from `lr_users` limit 10 offset 0
+
+[2019-07-18 10:04:46]select * from `lr_menus`
+
+[2019-07-18 10:04:46]select count(*) as aggregate from `lr_users`
+
+[2019-07-18 10:04:46]select * from `lr_users` limit 10 offset 0
+

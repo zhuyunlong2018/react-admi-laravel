@@ -15,6 +15,7 @@ use App\Logic\UserLogic;
 use App\Models\User;
 use App\Utils\Response;
 use Illuminate\Http\Request;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserController extends Controller
 {

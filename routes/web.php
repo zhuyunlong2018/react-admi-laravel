@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::prefix('/')->group(function () {
-    Route::any('test', 'TestController@test');
+    Route::any('test', 'TestController@test')->middleware(\App\Http\Middleware\CheckToken::class);
 });
 
 
@@ -28,7 +28,7 @@ Route::namespace('Admin')->prefix('admin')->group(function () {
 
     Route::prefix('/')->group(function () {
         // 登录
-        Route::post('login', 'LoginController@login');
+        Route::post('login', 'AuthController@login');
 
     });
 

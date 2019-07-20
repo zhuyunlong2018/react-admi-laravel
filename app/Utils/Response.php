@@ -9,6 +9,8 @@
 namespace App\Utils;
 
 
+use App\Exceptions\ApiException;
+
 class Response
 {
     private static $code = 200;
@@ -31,6 +33,17 @@ class Response
         self::$data = $data;
         self::$message = $message;
         return self::ok();
+    }
+
+    public static function error(ApiException $exception) {
+        return response()->json(
+            [
+                'msg' => $exception->getMessage(),
+                'code' => $exception->getErrorCode(),
+                'data' => ''
+            ],
+            $exception->getCode()
+        );
     }
 
 }

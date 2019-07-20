@@ -1,0 +1,376 @@
+[2019-07-19 00:52:11]select * from `lr_menus`
+
+[2019-07-19 00:52:11]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 00:52:11]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 00:55:34]select * from `lr_menus`
+
+[2019-07-19 00:55:34]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 00:55:34]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 00:59:22]select * from `lr_menus`
+
+[2019-07-19 00:59:22]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 00:59:22]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:00:05]select * from `lr_menus`
+
+[2019-07-19 01:00:05]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:00:05]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:03:08]select * from `lr_menus`
+
+[2019-07-19 01:03:08]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:03:08]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:03:21]select * from `lr_menus`
+
+[2019-07-19 01:03:21]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:03:21]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:03:37]select * from `lr_menus`
+
+[2019-07-19 01:03:37]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:03:37]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:04:17]select * from `lr_menus`
+
+[2019-07-19 01:04:17]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:04:17]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:04:53]select * from `lr_menus`
+
+[2019-07-19 01:04:53]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:04:53]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:05:52]select * from `lr_menus`
+
+[2019-07-19 01:05:52]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:05:52]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:06:42]select * from `lr_menus`
+
+[2019-07-19 01:06:42]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:06:42]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:08:22]select * from `lr_menus`
+
+[2019-07-19 01:08:22]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:08:22]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:08:43]select * from `lr_menus`
+
+[2019-07-19 01:08:43]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:08:43]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:09:19]select * from `lr_menus`
+
+[2019-07-19 01:09:19]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:09:19]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 01:09:39]select * from `lr_menus`
+
+[2019-07-19 01:09:39]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 01:09:39]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 02:08:41]select * from `lr_menus`
+
+[2019-07-19 02:08:41]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 02:08:41]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 02:08:54]select * from `lr_menus`
+
+[2019-07-19 02:09:09]select * from `lr_menus`
+
+[2019-07-19 02:09:11]select * from `lr_menus`
+
+[2019-07-19 02:09:46]select * from `lr_menus`
+
+[2019-07-19 02:09:48]select * from `lr_menus`
+
+[2019-07-19 02:10:25]select * from `lr_menus`
+
+[2019-07-19 02:10:27]select * from `lr_menus`
+
+[2019-07-19 02:12:01]select * from `lr_menus`
+
+[2019-07-19 02:12:04]select * from `lr_menus`
+
+[2019-07-19 02:12:13]select * from `lr_menus`
+
+[2019-07-19 02:12:15]select * from `lr_menus`
+
+[2019-07-19 02:12:18]select * from `lr_menus`
+
+[2019-07-19 02:12:33]select * from `lr_menus`
+
+[2019-07-19 02:13:29]select * from `lr_menus`
+
+[2019-07-19 02:14:26]select * from `lr_menus`
+
+[2019-07-19 02:15:11]select * from `lr_menus`
+
+[2019-07-19 02:16:05]select * from `lr_menus`
+
+[2019-07-19 02:16:21]select * from `lr_menus`
+
+[2019-07-19 02:17:48]select * from `lr_menus`
+
+[2019-07-19 02:19:06]select * from `lr_menus`
+
+[2019-07-19 02:20:04]select * from `lr_menus`
+
+[2019-07-19 02:24:27]select * from `lr_menus`
+
+[2019-07-19 02:25:57]select * from `lr_menus`
+
+[2019-07-19 02:28:48]select * from `lr_menus`
+
+[2019-07-19 02:28:57]select * from `lr_menus`
+
+[2019-07-19 02:29:04]select * from `lr_menus`
+
+[2019-07-19 02:33:12]select * from `lr_menus`
+
+[2019-07-19 02:53:53]select * from `lr_menus`
+
+[2019-07-19 02:53:53]select * from `lr_roles`
+
+[2019-07-19 02:54:00]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 02:54:00]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 02:58:43]select * from `lr_menus`
+
+[2019-07-19 02:58:43]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 02:58:43]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 03:00:57]select * from `lr_menus`
+
+[2019-07-19 03:00:57]select count(*) as aggregate from `lr_users`
+
+[2019-07-19 03:00:57]select * from `lr_users` limit 10 offset 0
+
+[2019-07-19 03:01:30]select * from `lr_menus`
+
+[2019-07-19 03:02:44]select * from `lr_menus`
+
+[2019-07-19 03:02:53]select * from `lr_menus`
+
+[2019-07-19 03:03:04]select * from `lr_menus`
+
+[2019-07-19 03:03:18]select * from `lr_menus`
+
+[2019-07-19 03:03:29]select * from `lr_menus`
+
+[2019-07-19 03:03:40]select * from `lr_menus`
+
+[2019-07-19 03:03:51]select * from `lr_menus`
+
+[2019-07-19 03:04:02]select * from `lr_menus`
+
+[2019-07-19 03:04:13]select * from `lr_menus`
+
+[2019-07-19 07:26:08]select * from `lr_menus`
+
+[2019-07-19 07:26:29]select * from `lr_menus`
+
+[2019-07-19 07:26:51]select * from `lr_menus`
+
+[2019-07-19 07:27:12]select * from `lr_menus`
+
+[2019-07-19 07:27:33]select * from `lr_menus`
+
+[2019-07-19 07:27:41]select * from `lr_menus`
+
+[2019-07-19 07:27:45]select * from `lr_menus`
+
+[2019-07-19 07:28:07]select * from `lr_menus`
+
+[2019-07-19 07:28:28]select * from `lr_menus`
+
+[2019-07-19 07:28:49]select * from `lr_menus`
+
+[2019-07-19 07:29:10]select * from `lr_menus`
+
+[2019-07-19 07:29:31]select * from `lr_menus`
+
+[2019-07-19 07:29:52]select * from `lr_menus`
+
+[2019-07-19 07:30:13]select * from `lr_menus`
+
+[2019-07-19 07:30:34]select * from `lr_menus`
+
+[2019-07-19 07:30:55]select * from `lr_menus`
+
+[2019-07-19 07:31:16]select * from `lr_menus`
+
+[2019-07-19 07:31:37]select * from `lr_menus`
+
+[2019-07-19 07:31:58]select * from `lr_menus`
+
+[2019-07-19 07:32:19]select * from `lr_menus`
+
+[2019-07-19 07:32:40]select * from `lr_menus`
+
+[2019-07-19 07:33:01]select * from `lr_menus`
+
+[2019-07-19 07:33:22]select * from `lr_menus`
+
+[2019-07-19 07:33:43]select * from `lr_menus`
+
+[2019-07-19 07:34:04]select * from `lr_menus`
+
+[2019-07-19 07:34:25]select * from `lr_menus`
+
+[2019-07-19 07:34:46]select * from `lr_menus`
+
+[2019-07-19 07:35:07]select * from `lr_menus`
+
+[2019-07-19 07:35:28]select * from `lr_menus`
+
+[2019-07-19 07:35:49]select * from `lr_menus`
+
+[2019-07-19 07:36:10]select * from `lr_menus`
+
+[2019-07-19 07:36:31]select * from `lr_menus`
+
+[2019-07-19 07:36:52]select * from `lr_menus`
+
+[2019-07-19 07:37:13]select * from `lr_menus`
+
+[2019-07-19 07:37:34]select * from `lr_menus`
+
+[2019-07-19 07:37:55]select * from `lr_menus`
+
+[2019-07-19 07:38:16]select * from `lr_menus`
+
+[2019-07-19 07:38:37]select * from `lr_menus`
+
+[2019-07-19 07:40:43]select * from `lr_menus`
+
+[2019-07-19 07:41:04]select * from `lr_menus`
+
+[2019-07-19 07:41:25]select * from `lr_menus`
+
+[2019-07-19 07:41:46]select * from `lr_menus`
+
+[2019-07-19 07:42:08]select * from `lr_menus`
+
+[2019-07-19 07:42:29]select * from `lr_menus`
+
+[2019-07-19 07:42:50]select * from `lr_menus`
+
+[2019-07-19 07:43:11]select * from `lr_menus`
+
+[2019-07-19 07:43:32]select * from `lr_menus`
+
+[2019-07-19 07:43:53]select * from `lr_menus`
+
+[2019-07-19 07:44:14]select * from `lr_menus`
+
+[2019-07-19 07:44:35]select * from `lr_menus`
+
+[2019-07-19 07:44:56]select * from `lr_menus`
+
+[2019-07-19 07:45:18]select * from `lr_menus`
+
+[2019-07-19 07:45:40]select * from `lr_menus`
+
+[2019-07-19 07:46:03]select * from `lr_menus`
+
+[2019-07-19 07:46:24]select * from `lr_menus`
+
+[2019-07-19 07:46:46]select * from `lr_menus`
+
+[2019-07-19 07:47:08]select * from `lr_menus`
+
+[2019-07-19 07:47:32]select * from `lr_menus`
+
+[2019-07-19 07:47:56]select * from `lr_menus`
+
+[2019-07-19 07:48:19]select * from `lr_menus`
+
+[2019-07-19 07:48:40]select * from `lr_menus`
+
+[2019-07-19 07:49:03]select * from `lr_menus`
+
+[2019-07-19 07:49:27]select * from `lr_menus`
+
+[2019-07-19 07:49:50]select * from `lr_menus`
+
+[2019-07-19 07:50:16]select * from `lr_menus`
+
+[2019-07-19 07:50:37]select * from `lr_menus`
+
+[2019-07-19 07:50:45]select * from `lr_menus`
+
+[2019-07-19 07:50:47]select * from `lr_menus`
+
+[2019-07-19 07:50:57]select * from `lr_menus`
+
+[2019-07-19 07:51:06]select * from `lr_menus`
+
+[2019-07-19 07:51:15]select * from `lr_menus`
+
+[2019-07-19 07:51:24]select * from `lr_menus`
+
+[2019-07-19 07:51:34]select * from `lr_menus`
+
+[2019-07-19 07:51:43]select * from `lr_menus`
+
+[2019-07-19 07:51:55]select * from `lr_menus`
+
+[2019-07-19 08:07:24]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:08:41]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:13:54]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:15:03]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:15:36]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:16:08]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:16:56]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:18:22]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:27:48]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:37:30]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:38:55]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-19 08:42:06]select * from `lr_users` where (`name` = ? and `password` = ?) limit 1
+parmars:["admin","123456"]
+
