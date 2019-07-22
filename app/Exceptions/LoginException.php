@@ -10,10 +10,12 @@ namespace App\Exceptions;
 
 
 
+use App\Utils\Enum\ErrorCode;
+
 class LoginException extends ApiException
 {
     protected $code = 401;
     protected $message = '登录失效';
-    protected $errorCode = 1001;
+    protected $errorCode = ErrorCode::LOGIN_ERROR;
 
 }

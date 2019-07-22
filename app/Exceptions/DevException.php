@@ -9,9 +9,11 @@
 namespace App\Exceptions;
 
 
+use App\Utils\Enum\ErrorCode;
+
 class DevException extends ApiException
 {
     protected $code = 505;
     protected $message = '开发时异常';
-    protected $errorCode = 505;
+    protected $errorCode = ErrorCode::DEV_ERROR;
 }

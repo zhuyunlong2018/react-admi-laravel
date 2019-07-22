@@ -9,11 +9,13 @@
 namespace App\Exceptions;
 
 
+use App\Utils\Enum\ErrorCode;
+
 class ApiException extends \Exception
 {
     protected $code = 400;
     protected $message = 'invalid parameters';
-    protected $errorCode = 999;
+    protected $errorCode = ErrorCode::UNKNOWN_ERROR;
 
     protected $shouldToClient = true;
 

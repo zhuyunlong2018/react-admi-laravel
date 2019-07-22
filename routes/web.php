@@ -12,24 +12,37 @@
 */
 
 
-use App\Models\User;
-
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::prefix('/')->group(function () {
-    Route::any('test', 'TestController@test')->middleware(\App\Http\Middleware\CheckToken::class);
+    Route::any('test', 'TestController@test');
 });
 
 
-// Admin 模块
 Route::namespace('Admin')->prefix('admin')->group(function () {
+    // 后台登录
+    Route::post('login', 'AuthController@login');
 
-    Route::prefix('/')->group(function () {
-        // 登录
-        Route::post('login', 'AuthController@login');
+});
 
+// Admin 模块
+Route::middleware('jwt.api.auth')->namespace('Admin')->prefix('admin')->group(function () {
+
+    Route::prefix('/admins')->group(function () {
+        // 获取管理员列表
+        Route::get('getAdmins', 'AdminController@getAdmins');
+
+        //添加管理员
+        Route::post('add', 'AdminController@add');
+
+        //编辑管理员
+        Route::put('edit', 'AdminController@edit');
+
+        //删除管理员
+        Route::delete('del', 'AdminController@del');
+        
     });
 
     Route::prefix('/menus')->group(function () {

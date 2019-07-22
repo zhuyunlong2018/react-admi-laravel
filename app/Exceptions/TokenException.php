@@ -9,9 +9,11 @@
 namespace App\Exceptions;
 
 
+use App\Utils\Enum\ErrorCode;
+
 class TokenException extends ApiException
 {
     protected $code = 402;
     protected $message = 'token错误';
-    protected $errorCode = 1002;
+    protected $errorCode = ErrorCode::TOKEN_ERROR;
 }

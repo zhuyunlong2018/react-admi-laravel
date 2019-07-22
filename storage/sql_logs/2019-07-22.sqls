@@ -1,0 +1,1974 @@
+[2019-07-22 01:29:50]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 01:29:52]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:29:53]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:33:23]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:33:23]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:35:59]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:35:59]select * from `lr_menus`
+
+[2019-07-22 01:35:59]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:35:59]select * from `lr_menus`
+
+[2019-07-22 01:36:15]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 01:36:17]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:36:17]select * from `lr_menus`
+
+[2019-07-22 01:36:18]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:36:18]select * from `lr_menus`
+
+[2019-07-22 01:36:33]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:36:33]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 01:36:33]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 01:36:34]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:36:34]select * from `lr_menus`
+
+[2019-07-22 01:36:34]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:36:34]select * from `lr_roles`
+
+[2019-07-22 01:52:48]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:52:48]select * from `lr_menus`
+
+[2019-07-22 01:52:48]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:52:48]select * from `lr_menus`
+
+[2019-07-22 01:52:48]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:52:48]select * from `lr_roles`
+
+[2019-07-22 01:52:51]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:52:51]select * from `lr_menus`
+
+[2019-07-22 01:53:24]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:53:24]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 01:53:24]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 01:57:59]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:57:59]select * from `lr_menus`
+
+[2019-07-22 01:57:59]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:57:59]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 01:57:59]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 01:58:47]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 01:58:47]select * from `lr_menus`
+
+[2019-07-22 02:09:06]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:09:06]select * from `lr_menus`
+
+[2019-07-22 02:09:07]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:09:07]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 02:09:07]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 02:09:18]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:09:18]select * from `lr_menus`
+
+[2019-07-22 02:09:18]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:09:18]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 02:09:18]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 02:09:47]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:09:47]select * from `lr_menus`
+
+[2019-07-22 02:09:47]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:09:47]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 02:09:47]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 02:12:14]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:12:14]select * from `lr_menus`
+
+[2019-07-22 02:14:36]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:14:36]insert into `lr_menus` (`key`, `parent_key`, `local`, `order`, `path`, `target`, `icon`, `text`, `type`, `code`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+parmars:["20190722021436W09iP","20190718090554vTy5a","administrator",1000,"/admins",null,"usergroup-add","管理员管理",1,null]
+
+[2019-07-22 02:14:37]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:14:37]select * from `lr_menus`
+
+[2019-07-22 02:16:19]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:16:19]select * from `lr_menus`
+
+[2019-07-22 02:16:19]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:16:19]select * from `lr_menus`
+
+[2019-07-22 02:17:39]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:17:39]select * from `lr_menus`
+
+[2019-07-22 02:17:42]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:17:42]select * from `lr_menus`
+
+[2019-07-22 02:31:29]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:31:29]select * from `lr_menus`
+
+[2019-07-22 02:33:03]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:33:03]select * from `lr_menus`
+
+[2019-07-22 02:33:11]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:33:11]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 02:33:11]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 02:33:16]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 02:33:16]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 02:33:16]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 03:07:15]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 03:07:17]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:07:17]select * from `lr_menus`
+
+[2019-07-22 03:07:25]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 03:07:27]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:07:27]select * from `lr_menus`
+
+[2019-07-22 03:07:35]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:07:35]select * from `lr_menus`
+
+[2019-07-22 03:07:38]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:07:38]select * from `lr_menus`
+
+[2019-07-22 03:07:49]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:07:49]select * from `lr_menus`
+
+[2019-07-22 03:08:26]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:08:26]select * from `lr_menus`
+
+[2019-07-22 03:08:28]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:08:28]select * from `lr_admins`
+
+[2019-07-22 03:10:59]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:10:59]select * from `lr_menus`
+
+[2019-07-22 03:10:59]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:10:59]select * from `lr_admins`
+
+[2019-07-22 03:11:28]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:11:28]select * from `lr_menus`
+
+[2019-07-22 03:11:43]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:11:43]select * from `lr_menus`
+
+[2019-07-22 03:11:45]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:11:45]select * from `lr_admins`
+
+[2019-07-22 03:13:06]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:13:06]select * from `lr_menus`
+
+[2019-07-22 03:13:31]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:13:31]select * from `lr_menus`
+
+[2019-07-22 03:13:33]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:13:33]select * from `lr_admins`
+
+[2019-07-22 03:14:50]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:14:50]select * from `lr_menus`
+
+[2019-07-22 03:15:11]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:15:11]select * from `lr_menus`
+
+[2019-07-22 03:15:22]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:15:22]select * from `lr_menus`
+
+[2019-07-22 03:16:39]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:16:39]select * from `lr_menus`
+
+[2019-07-22 03:16:40]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:16:40]select * from `lr_admins`
+
+[2019-07-22 03:16:47]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:16:47]select * from `lr_menus`
+
+[2019-07-22 03:17:29]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:17:29]select * from `lr_menus`
+
+[2019-07-22 03:25:57]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 03:25:57]select * from `lr_menus`
+
+[2019-07-22 03:54:56]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_lr_users"]
+
+[2019-07-22 03:55:18]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_users"]
+
+[2019-07-22 03:55:18]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_users"]
+
+[2019-07-22 03:55:18]select column_name as `column_name` from information_schema.columns where table_schema = ? and table_name = ?
+parmars:["lr_manager","lr_users"]
+
+[2019-07-22 03:55:18]select `id`, `name`, `password`, `mobile`, `age`, `position`, `job` from `lr_users`
+
+[2019-07-22 03:56:14]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_menus"]
+
+[2019-07-22 03:56:14]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_menus"]
+
+[2019-07-22 03:56:14]select column_name as `column_name` from information_schema.columns where table_schema = ? and table_name = ?
+parmars:["lr_manager","lr_menus"]
+
+[2019-07-22 03:56:14]select `id`, `key`, `parent_key`, `local`, `text`, `target`, `icon`, `path`, `url`, `order`, `type`, `code` from `lr_menus`
+
+[2019-07-22 03:56:17]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_roles"]
+
+[2019-07-22 03:56:17]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_roles"]
+
+[2019-07-22 03:56:17]select column_name as `column_name` from information_schema.columns where table_schema = ? and table_name = ?
+parmars:["lr_manager","lr_roles"]
+
+[2019-07-22 03:56:17]select `id`, `name`, `description`, `permissions` from `lr_roles`
+
+[2019-07-22 03:56:20]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_admins"]
+
+[2019-07-22 03:56:20]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_admins"]
+
+[2019-07-22 03:56:20]select column_name as `column_name` from information_schema.columns where table_schema = ? and table_name = ?
+parmars:["lr_manager","lr_admins"]
+
+[2019-07-22 03:56:20]select `id`, `name`, `password`, `description`, `status` from `lr_admins`
+
+[2019-07-22 06:09:36]select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+parmars:["lr_manager","lr_migrations"]
+
+[2019-07-22 06:09:36]create table `lr_migrations` (`id` int unsigned not null auto_increment primary key, `migration` varchar(255) not null, `batch` int not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci'
+
+[2019-07-22 06:09:36]select max(`batch`) as aggregate from `lr_migrations`
+
+[2019-07-22 06:10:20]insert into `lr_migrations` (`migration`, `batch`) values (?, ?)
+parmars:["2019_07_22_061020_create_lr_admins_table",0]
+
+[2019-07-22 06:10:20]insert into `lr_migrations` (`migration`, `batch`) values (?, ?)
+parmars:["2019_07_22_061020_create_lr_menus_table",0]
+
+[2019-07-22 06:10:20]insert into `lr_migrations` (`migration`, `batch`) values (?, ?)
+parmars:["2019_07_22_061020_create_lr_roles_table",0]
+
+[2019-07-22 06:10:20]insert into `lr_migrations` (`migration`, `batch`) values (?, ?)
+parmars:["2019_07_22_061020_create_lr_users_table",0]
+
+[2019-07-22 06:12:01]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 06:12:03]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:12:03]select * from `lr_menus`
+
+[2019-07-22 06:12:05]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:12:05]select * from `lr_admins`
+
+[2019-07-22 06:13:46]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:13:46]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 06:13:46]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 06:14:58]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:14:58]select * from `lr_menus`
+
+[2019-07-22 06:16:28]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:16:28]select * from `lr_menus`
+
+[2019-07-22 06:17:31]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:17:31]select * from `lr_menus`
+
+[2019-07-22 06:18:03]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:18:04]select * from `lr_menus`
+
+[2019-07-22 06:18:32]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:18:32]select * from `lr_menus`
+
+[2019-07-22 06:18:41]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:18:41]select * from `lr_menus`
+
+[2019-07-22 06:18:43]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:18:43]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 06:18:43]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 06:22:03]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:22:03]select * from `lr_menus`
+
+[2019-07-22 06:22:15]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:22:15]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 06:22:15]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 06:24:02]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:24:02]select * from `lr_menus`
+
+[2019-07-22 06:24:02]select * from `lr_users` where `id` = ? limit 1
+parmars:[7]
+
+[2019-07-22 06:24:02]select * from `lr_roles`
+
+[2019-07-22 06:28:39]select * from `lr_admins` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 06:30:08]select * from `lr_admins` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 06:30:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:30:10]select * from `lr_menus`
+
+[2019-07-22 06:30:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:30:11]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 06:30:11]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 06:48:02]select * from `lr_users` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 06:48:20]select * from `lr_admins` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 06:48:21]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:48:21]select * from `lr_menus`
+
+[2019-07-22 06:48:22]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:48:22]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 06:48:22]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 06:55:51]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:55:51]insert into `lr_admins` (`name`, `description`) values (?, ?)
+parmars:["admin2","第二个管理员"]
+
+[2019-07-22 06:56:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:56:05]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["2"]
+
+[2019-07-22 06:56:05]update `lr_admins` set `name` = ? where `id` = ?
+parmars:["admin-3",2]
+
+[2019-07-22 06:56:14]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:56:14]delete from `lr_admins` where (`id` = ?)
+parmars:[2]
+
+[2019-07-22 06:59:08]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:59:08]select * from `lr_menus`
+
+[2019-07-22 06:59:08]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 06:59:08]select * from `lr_roles`
+
+[2019-07-22 07:02:52]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:02:52]select * from `lr_menus`
+
+[2019-07-22 07:03:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:03:00]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 07:03:00]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 07:03:00]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 07:05:58]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:05:58]select * from `lr_menus`
+
+[2019-07-22 07:05:58]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:05:58]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 07:05:58]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 07:05:58]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 07:09:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:09:36]select * from `lr_menus`
+
+[2019-07-22 07:09:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:09:36]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 07:09:36]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 07:09:36]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 07:11:08]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:11:08]select * from `lr_menus`
+
+[2019-07-22 07:11:08]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:11:08]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 07:11:08]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 07:11:08]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 07:12:49]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:12:49]select * from `lr_menus`
+
+[2019-07-22 07:12:59]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:12:59]select * from `lr_menus`
+
+[2019-07-22 07:13:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:13:00]select * from `lr_roles`
+
+[2019-07-22 07:14:22]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:14:22]select * from `lr_menus`
+
+[2019-07-22 07:14:22]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:14:22]select * from `lr_menus`
+
+[2019-07-22 07:14:22]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:14:22]select * from `lr_roles`
+
+[2019-07-22 07:14:28]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:14:28]select * from `lr_menus`
+
+[2019-07-22 07:15:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:15:11]select * from `lr_menus`
+
+[2019-07-22 07:15:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:15:11]select * from `lr_menus`
+
+[2019-07-22 07:15:32]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:15:32]select * from `lr_menus`
+
+[2019-07-22 07:15:41]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:15:41]select * from `lr_menus`
+
+[2019-07-22 07:18:17]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:18:17]select * from `lr_menus`
+
+[2019-07-22 07:18:18]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:18:18]select * from `lr_menus`
+
+[2019-07-22 07:18:26]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:18:26]select * from `lr_menus`
+
+[2019-07-22 07:18:35]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:18:35]select * from `lr_menus`
+
+[2019-07-22 07:19:01]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:19:01]select * from `lr_menus`
+
+[2019-07-22 07:19:01]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:19:01]select * from `lr_menus`
+
+[2019-07-22 07:31:29]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:31:29]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 07:31:29]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 07:31:30]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:31:30]select * from `lr_menus`
+
+[2019-07-22 07:31:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:31:31]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 07:31:31]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 07:31:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:31:37]delete from `lr_users` where (`id` = ?)
+parmars:[5]
+
+[2019-07-22 07:33:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:33:20]select * from `lr_menus`
+
+[2019-07-22 07:33:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:33:20]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 07:33:20]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 07:33:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:33:25]delete from `lr_users` where (`id` = ?)
+parmars:[8]
+
+[2019-07-22 07:35:03]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:35:03]select * from `lr_menus`
+
+[2019-07-22 07:35:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:35:11]select * from `lr_menus`
+
+[2019-07-22 07:50:33]select * from `lr_admins` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 07:50:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:50:36]select * from `lr_menus`
+
+[2019-07-22 07:50:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:50:36]select * from `lr_menus`
+
+[2019-07-22 07:50:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:50:36]select * from `lr_roles`
+
+[2019-07-22 07:51:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:51:10]select * from `lr_menus`
+
+[2019-07-22 07:51:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:51:10]select * from `lr_menus`
+
+[2019-07-22 07:51:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:51:11]select * from `lr_roles`
+
+[2019-07-22 07:51:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:51:36]select * from `lr_menus`
+
+[2019-07-22 07:55:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 07:55:57]select * from `lr_menus`
+
+[2019-07-22 08:00:33]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:00:33]select * from `lr_menus`
+
+[2019-07-22 08:02:19]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:02:19]select * from `lr_menus`
+
+[2019-07-22 08:03:02]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:03:02]select * from `lr_menus`
+
+[2019-07-22 08:03:04]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:03:04]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:03:04]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:03:04]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:03:07]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:03:07]select * from `lr_menus`
+
+[2019-07-22 08:04:12]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:04:12]select * from `lr_menus`
+
+[2019-07-22 08:04:12]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:04:12]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:04:12]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:07:53]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:07:53]select * from `lr_menus`
+
+[2019-07-22 08:07:53]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:07:53]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:07:53]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:08:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:08:05]insert into `lr_users` (`name`, `age`, `mobile`) values (?, ?, ?)
+parmars:["5123","50","6595"]
+
+[2019-07-22 08:10:26]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:10:26]select * from `lr_menus`
+
+[2019-07-22 08:10:27]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:10:27]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:10:27]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:10:55]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:10:55]select * from `lr_menus`
+
+[2019-07-22 08:10:55]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:10:55]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:10:55]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:11:03]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:11:03]select * from `lr_users` where (`id` = ?) limit 1
+parmars:["9"]
+
+[2019-07-22 08:11:03]update `lr_users` set `name` = ? where `id` = ?
+parmars:["34放大",9]
+
+[2019-07-22 08:11:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:11:11]insert into `lr_users` (`name`, `age`, `mobile`) values (?, ?, ?)
+parmars:["发的发","24","4545643"]
+
+[2019-07-22 08:17:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:17:37]select * from `lr_menus`
+
+[2019-07-22 08:17:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:17:37]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:17:37]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:18:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:18:05]select * from `lr_menus`
+
+[2019-07-22 08:18:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:18:05]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:18:05]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:18:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:18:10]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:18:10]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:18:10]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:19:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:19:31]select * from `lr_menus`
+
+[2019-07-22 08:19:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:19:31]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:19:31]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:19:31]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:19:34]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:19:34]select * from `lr_menus`
+
+[2019-07-22 08:19:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:19:36]select count(*) as aggregate from `lr_users`
+
+[2019-07-22 08:19:36]select * from `lr_users` limit 10 offset 0
+
+[2019-07-22 08:19:38]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:19:38]select * from `lr_menus`
+
+[2019-07-22 08:19:38]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:19:38]select * from `lr_roles`
+
+[2019-07-22 08:20:03]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:20:03]select * from `lr_menus`
+
+[2019-07-22 08:20:03]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:20:03]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:20:03]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:20:03]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:26:54]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:26:54]select * from `lr_menus`
+
+[2019-07-22 08:27:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:27:00]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:27:00]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:27:00]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:37:26]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:37:26]select * from `lr_menus`
+
+[2019-07-22 08:37:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:37:31]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:37:31]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:37:31]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:40:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:40:37]select * from `lr_menus`
+
+[2019-07-22 08:40:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:40:37]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:40:37]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:40:37]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:44:12]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:44:12]select * from `lr_menus`
+
+[2019-07-22 08:44:12]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:44:12]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:44:12]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:44:12]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:50:23]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:50:23]select * from `lr_menus`
+
+[2019-07-22 08:50:45]select * from `lr_admins` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 08:50:47]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:50:47]select * from `lr_menus`
+
+[2019-07-22 08:50:48]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:50:48]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:50:48]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:50:48]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:52:40]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:52:40]select * from `lr_menus`
+
+[2019-07-22 08:52:41]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:52:41]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:52:41]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:52:41]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:57:58]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:57:58]select * from `lr_menus`
+
+[2019-07-22 08:57:58]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:57:58]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:57:58]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:57:58]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:58:33]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:58:33]select * from `lr_menus`
+
+[2019-07-22 08:58:33]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:58:33]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:58:33]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:58:33]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 08:59:04]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:59:04]select * from `lr_menus`
+
+[2019-07-22 08:59:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 08:59:05]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 08:59:05]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 08:59:05]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:01:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:01:10]select * from `lr_menus`
+
+[2019-07-22 09:01:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:01:10]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:01:10]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:01:10]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:01:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:01:37]select * from `lr_menus`
+
+[2019-07-22 09:01:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:01:37]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:01:37]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:01:37]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:03:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:03:00]select * from `lr_menus`
+
+[2019-07-22 09:03:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:03:00]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:03:00]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:03:00]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:03:50]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:03:50]select * from `lr_menus`
+
+[2019-07-22 09:03:50]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:03:50]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:03:50]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:03:50]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:05:06]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:05:06]select * from `lr_menus`
+
+[2019-07-22 09:05:06]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:05:06]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:05:06]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:05:06]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:06:15]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:06:15]select * from `lr_menus`
+
+[2019-07-22 09:06:15]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:06:15]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:06:15]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:06:15]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:09:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:09:11]select * from `lr_menus`
+
+[2019-07-22 09:09:11]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:09:11]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:09:11]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:09:11]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:15:39]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:15:39]select * from `lr_menus`
+
+[2019-07-22 09:15:39]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:15:39]select * from `lr_roles`
+
+[2019-07-22 09:15:39]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:15:39]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:15:39]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:15:39]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:16:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:00]select * from `lr_menus`
+
+[2019-07-22 09:16:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:00]select * from `lr_roles`
+
+[2019-07-22 09:16:00]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:00]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:16:00]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:16:00]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:16:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:10]select * from `lr_menus`
+
+[2019-07-22 09:16:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:10]select * from `lr_roles`
+
+[2019-07-22 09:16:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:10]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:16:10]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:16:10]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:16:38]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:38]select * from `lr_menus`
+
+[2019-07-22 09:16:38]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:38]select * from `lr_roles`
+
+[2019-07-22 09:16:38]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:38]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:16:38]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:16:38]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:16:49]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:49]select * from `lr_menus`
+
+[2019-07-22 09:16:49]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:49]select * from `lr_roles`
+
+[2019-07-22 09:16:49]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:49]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:16:49]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:16:49]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:16:59]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:59]select * from `lr_menus`
+
+[2019-07-22 09:16:59]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:59]select * from `lr_roles`
+
+[2019-07-22 09:16:59]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:16:59]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:16:59]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:16:59]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:17:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:10]select * from `lr_menus`
+
+[2019-07-22 09:17:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:10]select * from `lr_roles`
+
+[2019-07-22 09:17:10]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:10]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:17:10]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:17:10]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:17:35]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:35]select * from `lr_menus`
+
+[2019-07-22 09:17:35]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:35]select * from `lr_roles`
+
+[2019-07-22 09:17:35]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:35]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:17:35]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:17:35]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:17:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:57]select * from `lr_menus`
+
+[2019-07-22 09:17:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:57]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:17:57]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:17:57]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:17:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:17:57]select * from `lr_roles`
+
+[2019-07-22 09:18:06]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:18:06]select * from `lr_menus`
+
+[2019-07-22 09:18:07]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:18:07]select * from `lr_roles`
+
+[2019-07-22 09:18:07]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:18:07]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:18:07]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:18:07]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:19:04]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:19:04]select * from `lr_menus`
+
+[2019-07-22 09:19:04]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:19:04]select * from `lr_roles`
+
+[2019-07-22 09:19:04]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:19:04]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:19:04]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:19:04]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:19:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:19:31]select * from `lr_menus`
+
+[2019-07-22 09:19:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:19:31]select * from `lr_roles`
+
+[2019-07-22 09:19:31]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:19:31]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:19:31]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:19:31]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:22:27]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:22:27]select * from `lr_menus`
+
+[2019-07-22 09:22:27]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:22:27]select * from `lr_roles`
+
+[2019-07-22 09:22:27]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:22:27]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:22:27]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:22:27]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:23:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:23:20]select * from `lr_menus`
+
+[2019-07-22 09:23:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:23:20]select * from `lr_roles`
+
+[2019-07-22 09:23:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:23:20]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:23:20]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:23:20]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:24:02]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:24:02]select * from `lr_menus`
+
+[2019-07-22 09:24:03]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:24:03]select * from `lr_roles`
+
+[2019-07-22 09:24:03]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:24:03]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:24:03]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:24:03]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:24:13]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:24:13]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:25:16]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:25:16]select * from `lr_menus`
+
+[2019-07-22 09:25:16]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:25:16]select * from `lr_roles`
+
+[2019-07-22 09:25:16]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:25:16]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:25:16]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:25:16]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:25:19]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:25:19]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:28:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:28:20]select * from `lr_menus`
+
+[2019-07-22 09:28:20]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:28:20]select * from `lr_roles`
+
+[2019-07-22 09:28:21]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:28:21]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:28:21]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:28:21]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:28:24]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:28:24]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:36:40]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:36:40]select * from `lr_menus`
+
+[2019-07-22 09:36:40]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:36:40]select * from `lr_roles`
+
+[2019-07-22 09:36:40]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:36:40]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:36:40]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:36:40]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:36:44]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:36:44]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:37:33]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:37:33]select * from `lr_menus`
+
+[2019-07-22 09:37:33]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:37:33]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:37:33]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:37:33]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:37:33]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:37:33]select * from `lr_roles`
+
+[2019-07-22 09:37:37]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:37:37]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:38:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:38:25]select * from `lr_menus`
+
+[2019-07-22 09:38:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:38:25]select * from `lr_roles`
+
+[2019-07-22 09:38:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:38:25]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:38:25]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:38:25]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:38:28]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:38:28]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:39:47]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:39:47]select * from `lr_menus`
+
+[2019-07-22 09:39:47]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:39:47]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:39:47]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:39:47]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:39:47]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:39:47]select * from `lr_roles`
+
+[2019-07-22 09:41:14]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:41:17]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:41:17]select * from `lr_menus`
+
+[2019-07-22 09:41:17]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:41:17]select * from `lr_roles`
+
+[2019-07-22 09:41:18]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:41:18]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:41:18]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:41:18]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:41:36]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:46:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:46:05]select * from `lr_menus`
+
+[2019-07-22 09:46:05]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:46:05]select * from `lr_roles`
+
+[2019-07-22 09:46:06]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:46:06]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:46:06]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:46:06]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:46:27]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:46:27]select * from `lr_admins` where (`id` = ?) limit 1
+parmars:["1"]
+
+[2019-07-22 09:46:27]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:46:27]insert into `lr_admin_role` (`admin_id`, `role_id`) values (?, ?)
+parmars:[1,2]
+
+[2019-07-22 09:47:23]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:47:23]select * from `lr_menus`
+
+[2019-07-22 09:47:23]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:47:23]select * from `lr_roles`
+
+[2019-07-22 09:47:24]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:47:24]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:47:24]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:47:24]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:48:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:48:25]select * from `lr_menus`
+
+[2019-07-22 09:48:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:48:25]select * from `lr_roles`
+
+[2019-07-22 09:48:25]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:48:25]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:48:25]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:48:25]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:49:14]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:49:14]select * from `lr_menus`
+
+[2019-07-22 09:49:14]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:49:14]select * from `lr_roles`
+
+[2019-07-22 09:49:15]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:49:15]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:49:15]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:49:15]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:49:19]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:51:55]select * from `lr_admins` where `name` = ? limit 1
+parmars:["admin"]
+
+[2019-07-22 09:51:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:51:57]select * from `lr_menus`
+
+[2019-07-22 09:51:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:51:57]select * from `lr_roles`
+
+[2019-07-22 09:51:58]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:51:58]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:51:58]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:51:58]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:52:02]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:52:02]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:52:02]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:52:02]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:52:02]delete from `lr_admin_role` where `admin_id` = ? and `role_id` in (?)
+parmars:[1,2]
+
+[2019-07-22 09:52:43]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:52:43]select * from `lr_roles`
+
+[2019-07-22 09:52:43]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:52:43]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:52:43]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:52:43]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:52:46]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:52:46]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:52:46]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:52:46]insert into `lr_admin_role` (`admin_id`, `role_id`) values (?, ?)
+parmars:[1,2]
+
+[2019-07-22 09:53:54]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:53:54]select * from `lr_menus`
+
+[2019-07-22 09:53:54]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:53:54]select * from `lr_roles`
+
+[2019-07-22 09:53:54]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:53:54]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:53:54]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:53:54]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:53:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:53:57]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:53:57]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:53:57]delete from `lr_admin_role` where `admin_id` = ? and `role_id` in (?)
+parmars:[1,2]
+
+[2019-07-22 09:55:51]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:55:51]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:55:51]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:56:02]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:56:02]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:56:02]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:56:23]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:56:23]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:56:23]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:56:23]insert into `lr_admin_role` (`admin_id`, `role_id`) values (?, ?)
+parmars:[1,2]
+
+[2019-07-22 09:59:07]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:59:07]select * from `lr_roles`
+
+[2019-07-22 09:59:07]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:59:07]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 09:59:07]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 09:59:07]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1)
+
+[2019-07-22 09:59:16]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 09:59:16]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 09:59:16]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 09:59:16]delete from `lr_admin_role` where `admin_id` = ? and `role_id` in (?)
+parmars:[1,2]
+
+[2019-07-22 09:59:16]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` = ?
+parmars:[1]
+
+[2019-07-22 10:00:04]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:00:04]select * from `lr_admin_role` where `admin_id` is null
+
+[2019-07-22 10:03:08]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:03:08]insert into `lr_admins` (`name`, `description`) values (?, ?)
+parmars:["guester","a guester"]
+
+[2019-07-22 10:03:08]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[3]
+
+[2019-07-22 10:03:08]insert into `lr_admin_role` (`admin_id`, `role_id`) values (?, ?)
+parmars:[3,2]
+
+[2019-07-22 10:03:29]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:03:29]select * from `lr_menus`
+
+[2019-07-22 10:03:29]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:03:29]select * from `lr_roles`
+
+[2019-07-22 10:03:29]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:03:29]select count(*) as aggregate from `lr_admins`
+
+[2019-07-22 10:03:29]select * from `lr_admins` limit 10 offset 0
+
+[2019-07-22 10:03:29]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` in (1, 3)
+
+[2019-07-22 10:03:57]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:03:57]insert into `lr_admins` (`name`, `description`) values (?, ?)
+parmars:["guester2","other guester"]
+
+[2019-07-22 10:03:57]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[4]
+
+[2019-07-22 10:03:57]insert into `lr_admin_role` (`admin_id`, `role_id`) values (?, ?)
+parmars:[4,2]
+
+[2019-07-22 10:03:57]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` = ?
+parmars:[4]
+
+[2019-07-22 10:04:08]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:04:08]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["4"]
+
+[2019-07-22 10:04:08]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[4]
+
+[2019-07-22 10:04:08]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` = ?
+parmars:[4]
+
+[2019-07-22 10:04:15]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:04:15]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 10:04:15]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 10:04:15]insert into `lr_admin_role` (`admin_id`, `role_id`) values (?, ?)
+parmars:[1,2]
+
+[2019-07-22 10:04:15]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` = ?
+parmars:[1]
+
+[2019-07-22 10:04:19]select * from `lr_admins` where `id` = ? limit 1
+parmars:[1]
+
+[2019-07-22 10:04:19]select * from `lr_admins` where `lr_admins`.`id` = ? limit 1
+parmars:["1"]
+
+[2019-07-22 10:04:19]select * from `lr_admin_role` where `admin_id` = ?
+parmars:[1]
+
+[2019-07-22 10:04:19]delete from `lr_admin_role` where `admin_id` = ? and `role_id` in (?)
+parmars:[1,2]
+
+[2019-07-22 10:04:19]select `lr_roles`.*, `lr_admin_role`.`admin_id` as `pivot_admin_id`, `lr_admin_role`.`role_id` as `pivot_role_id` from `lr_roles` inner join `lr_admin_role` on `lr_roles`.`id` = `lr_admin_role`.`role_id` where `lr_admin_role`.`admin_id` = ?
+parmars:[1]
+

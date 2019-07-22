@@ -2,59 +2,58 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2019/7/18
- * Time: 10:44
+ * Date: 2019/7/22
+ * Time: 10:33
  */
 
 namespace App\Http\Controllers\Admin;
 
 
 use App\Http\Controllers\Controller;
-use App\Logic\RoleLogic;
-use App\Models\Role;
+use App\Logic\AdminLogic;
+use App\Models\Admin;
 use App\Utils\Response;
 use Illuminate\Http\Request;
 
-class RoleController extends Controller
+class AdminController extends Controller
 {
     /**
-     * 获取所有角色列表
+     * 获取管理员列表
+     * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getRoles() {
-        $roles = Role::all();
-        return Response::result($roles);
+    public function getAdmins(Request $request) {
+        $admins = Admin::with("roles")->paginate($request->pageSize);
+        return Response::result($admins);
     }
 
     /**
-     * 添加一名角色
+     * 添加一名管理员
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function add(Request $request) {
-        $role = new Role();
-        RoleLogic::update($role, $request);
-        return Response::result($role);
+        $admin = AdminLogic::update(new Admin(), $request);
+        return Response::result($admin);
     }
 
     /**
-     * 编辑角色
+     * 编辑一名管理员
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function edit(Request $request) {
-        $role = Role::find($request->id);
-        RoleLogic::update($role, $request);
-        return Response::result($role);
+        $admin = AdminLogic::update(Admin::find($request->id), $request);
+        return Response::result($admin);
     }
 
     /**
-     * 删除一名角色
+     * 删除一名管理员
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function del(Request $request) {
-        Role::deleteWhere(['id' =>$request->input("id")]);
+        Admin::deleteWhere(['id' => $request->input("id")]);
         return Response::ok();
     }
 

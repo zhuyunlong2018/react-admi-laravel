@@ -9,9 +9,11 @@
 namespace App\Exceptions;
 
 
+use App\Utils\Enum\ErrorCode;
+
 class ValidationException extends ApiException
 {
     protected $code = 402;
     protected $message = '参数校验失败';
-    protected $errorCode = 1002;
+    protected $errorCode = ErrorCode::VALIDATOR_ERROR;
 }

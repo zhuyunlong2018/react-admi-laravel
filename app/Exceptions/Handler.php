@@ -65,6 +65,7 @@ class Handler extends ExceptionHandler
         if ($exception instanceof ApiException) {
             return Response::error($exception);
         } else {
+            //TODO 切换为api响应并记录log
             return parent::render($request, $exception);
         }
     }

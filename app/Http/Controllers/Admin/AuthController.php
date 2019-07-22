@@ -23,13 +23,12 @@ class AuthController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth:api', ['except' => ['login']]);
     }
 
     public function login(Request $request)
     {
         new AuthValidator($request);
-        if (! $token = JWTAuth::attempt([
+        if (! $token = auth("web")->attempt([
             "name" => $request->input("userName"),
             "password" => $request->input("password")
         ])) {
@@ -47,5 +46,31 @@ class AuthController extends Controller
         $user = User::create(['name' => $name, 'password' => Hash::make($password)]);
         $user->token = JWTAuth::fromUser($user);
         return Response::result($user);
+    }
+
+    /**
+     * Refresh a token.
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function refresh()
+    {
+        return $this->respondWithToken(JWTAuth::parseToken()->refresh());
+    }
+
+    /**
+     * Get the token array structure.
+     *
+     * @param  string $token
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    protected function respondWithToken($token)
+    {
+        return response()->json([
+            'access_token' => $token,
+            'token_type' => 'bearer',
+            'expires_in' => JWTAuth::factory()->getTTL() * 60
+        ]);
     }
 }

@@ -37,8 +37,8 @@ return [
 
     'guards' => [
         'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
+            'driver' => 'jwt',
+            'provider' => 'admins',
         ],
 
         'api' => [
@@ -71,10 +71,10 @@ return [
             'model' => \App\Models\User::class
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+         'admins' => [
+             'driver' => 'eloquent',
+             'model' => \App\Models\Admin::class,
+         ],
     ],
 
     /*

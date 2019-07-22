@@ -15,7 +15,6 @@ use App\Logic\UserLogic;
 use App\Models\User;
 use App\Utils\Response;
 use Illuminate\Http\Request;
-use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserController extends Controller
 {
@@ -35,7 +34,7 @@ class UserController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function getUser(Request $request) {
-        $user = User::getOne(['id' => $request->input("id")]);
+        $user = User::find($request->id);
         return Response::result($user);
     }
 
@@ -56,7 +55,7 @@ class UserController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function edit(Request $request) {
-        $user = User::getOne(['id' => $request->input("id")]);
+        $user = User::find($request->id);
         UserLogic::update($user, $request);
         return Response::result($user);
     }
