@@ -13,7 +13,6 @@ use App\Exceptions\LoginException;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Utils\Response;
-use App\Validator\AuthValidator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Facades\JWTAuth;
@@ -27,20 +26,19 @@ class AuthController extends Controller
 
     public function login(Request $request)
     {
-        new AuthValidator($request);
         if (! $token = auth("web")->attempt([
             "name" => $request->input("userName"),
             "password" => $request->input("password")
         ])) {
             throw new LoginException(['msg' => '用户名或密码错误']);
         }
+        //TODO 取出用户相关权限
         JWTAuth::user()->token = $token;
         return Response::result(JWTAuth::user());
     }
 
     public function register(Request $request)
     {
-        new AuthValidator($request);
         $name = $request->name;
         $password = $request->password;
         $user = User::create(['name' => $name, 'password' => Hash::make($password)]);

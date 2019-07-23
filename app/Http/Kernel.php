@@ -42,6 +42,12 @@ class Kernel extends HttpKernel
             'throttle:60,1',
             'bindings',
         ],
+
+        //校验token，并且校验访问路由权限
+        'api.auth' => [
+            'jwt.api.token',
+            'jwt.api.auth',
+        ],
     ];
 
     /**
@@ -63,7 +69,15 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'jwt.auth' => 'Tymon\JWTAuth\Middleware\GetUserFromToken',
         'jwt.refresh' => 'Tymon\JWTAuth\Middleware\RefreshToken',
-        'jwt.api.auth' => \App\Http\Middleware\CheckToken::class,
+
+        //登录校验
+        'jwt.api.token' => \App\Http\Middleware\CheckToken::class,
+
+        //登录用户访问api路由权限校验
+        'jwt.api.auth' => \App\Http\Middleware\CheckTokenAuth::class,
+
+        //表单参数验证
+        'validator'    => \App\Http\Middleware\ParamsValidation::class,
     ];
 
     /**
@@ -80,5 +94,10 @@ class Kernel extends HttpKernel
         \Illuminate\Session\Middleware\AuthenticateSession::class,
         \Illuminate\Routing\Middleware\SubstituteBindings::class,
         \Illuminate\Auth\Middleware\Authorize::class,
+
+        //中间件强制排序
+        \App\Http\Middleware\CheckToken::class,
+        \App\Http\Middleware\CheckTokenAuth::class,
+        \App\Http\Middleware\ParamsValidation::class,
     ];
 }

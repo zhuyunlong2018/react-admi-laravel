@@ -16,21 +16,25 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('/')->group(function () {
+//测试路由
+Route::middleware('validator:Auth')->prefix('/')->group(function () {
     Route::any('test', 'TestController@test');
 });
 
 
-Route::namespace('Admin')->prefix('admin')->group(function () {
+Route::middleware('validator:Auth')->namespace('Admin')->prefix('admin')->group(function () {
     // 后台登录
     Route::post('login', 'AuthController@login');
+
+    //后台注册
+    Route::post('register', 'AuthController@register');
 
 });
 
 // Admin 模块
-Route::middleware('jwt.api.auth')->namespace('Admin')->prefix('admin')->group(function () {
+Route::middleware('api.auth')->namespace('Admin')->prefix('admin')->group(function () {
 
-    Route::prefix('/admins')->group(function () {
+    Route::middleware('validator:Admin')->prefix('/admins')->group(function () {
         // 获取管理员列表
         Route::get('getAdmins', 'AdminController@getAdmins');
 
@@ -42,7 +46,7 @@ Route::middleware('jwt.api.auth')->namespace('Admin')->prefix('admin')->group(fu
 
         //删除管理员
         Route::delete('del', 'AdminController@del');
-        
+
     });
 
     Route::prefix('/menus')->group(function () {
@@ -59,7 +63,7 @@ Route::middleware('jwt.api.auth')->namespace('Admin')->prefix('admin')->group(fu
         Route::delete('del', 'MenuController@del');
     });
 
-    Route::prefix('/roles')->group(function () {
+    Route::middleware('validator:Role')->prefix('/roles')->group(function () {
         // 获取角色列表
         Route::get('getRoles', 'RoleController@getRoles');
 

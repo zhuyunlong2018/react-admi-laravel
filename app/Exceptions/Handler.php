@@ -5,6 +5,7 @@ namespace App\Exceptions;
 use App\Utils\Response;
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\Log;
 
 class Handler extends ExceptionHandler
 {
@@ -47,9 +48,6 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        if (config('app.debug')) {
-//            return parent::render($request, $exception);
-        }
         return $this->handle($request, $exception);
     }
 
@@ -65,8 +63,15 @@ class Handler extends ExceptionHandler
         if ($exception instanceof ApiException) {
             return Response::error($exception);
         } else {
-            //TODO 切换为api响应并记录log
-            return parent::render($request, $exception);
+            //TODO 记录error日志
+            Log::error($exception->getMessage(), [
+                $exception->getFile(),
+                $exception->getLine()
+            ]);
+            if (config('app.debug')) {
+                return parent::render($request, $exception);
+            }
+            return Response::error($exception);
         }
     }
 }
