@@ -30,7 +30,14 @@ class ErrorCode
     //传递参数验证器不通过
     const VALIDATOR_ERROR = 4004;
 
+    //权限不足
+    const AUTH_ERROR = 4005;
+
     //开发时异常
     const DEV_ERROR = 5000;
+
+    //数据库操作异常
+    const SQL_ERROR = 5001;
+
 
 }

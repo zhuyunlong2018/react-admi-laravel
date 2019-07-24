@@ -16,6 +16,7 @@ class ApiException extends \Exception
     protected $code = 400;
     protected $message = 'invalid parameters';
     protected $errorCode = ErrorCode::UNKNOWN_ERROR;
+    protected $errorResult = [];
 
     protected $shouldToClient = true;
 
@@ -37,10 +38,17 @@ class ApiException extends \Exception
         if(array_key_exists('errorCode',$params)){
             $this->errorCode = $params['errorCode'];
         }
+        if(array_key_exists('errorResult',$params)){
+            $this->errorResult = $params['errorResult'];
+        }
     }
 
     public function getErrorCode() {
         return $this->errorCode;
+    }
+
+    public function getErrorResult() {
+        return $this->errorResult;
     }
 
 }

@@ -9,6 +9,9 @@
 namespace App\Validator;
 
 
+use App\Models\Admin;
+use Illuminate\Http\Request;
+
 class AuthValidator extends BaseValidator
 {
     protected $attributes = [
@@ -20,7 +23,10 @@ class AuthValidator extends BaseValidator
         'required'=>':attribute 为必填项',
     ];
 
-    protected $rules = [
+    public function __construct(string $uri, Request $request)
+    {
+        parent::__construct($uri, $request);
+         $this->rules = [
         //管理员登录
         "admin/login" => [
             'userName' => 'required|max:255',
@@ -29,16 +35,23 @@ class AuthValidator extends BaseValidator
 
         //管理员注册
         "admin/register" => [
-            'userName' => 'required|max:255',
+            'userName' => [
+                'required',
+                'max:255',
+                $this->getCustomRules("checkAddNameRepeat")
+            ],
             'password' => 'required|string|min:6'
         ],
     ];
+    }
 
     /**
      * 自定义规则
+     * @param $request
+     * @throws \App\Exceptions\DevException
      */
-    protected function makeCustomRules(): void
+    protected function makeCustomRules($request): void
     {
-        // TODO: Implement makeCustomRules() method.
+        $this->checkAddRepeat(Admin::class);
     }
 }

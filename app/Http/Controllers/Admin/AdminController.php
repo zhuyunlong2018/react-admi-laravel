@@ -11,6 +11,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Logic\AdminLogic;
+use App\Logic\AuthLogic;
 use App\Models\Admin;
 use App\Utils\Response;
 use Illuminate\Http\Request;
@@ -41,9 +42,12 @@ class AdminController extends Controller
      * 编辑一名管理员
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
+     * @throws \App\Exceptions\AuthException
      */
     public function edit(Request $request) {
-        $admin = AdminLogic::update(Admin::find($request->id), $request);
+        $admin = Admin::find($request->id);
+        $admin = AdminLogic::update($admin, $request);
+        (new AuthLogic($admin))->refreshCache();
         return Response::result($admin);
     }
 
@@ -53,7 +57,9 @@ class AdminController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function del(Request $request) {
-        Admin::deleteWhere(['id' => $request->input("id")]);
+        $admin = Admin::find($request->id);
+        $admin->roles()->detach();
+        $admin->delete();
         return Response::ok();
     }
 

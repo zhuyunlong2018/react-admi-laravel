@@ -17,12 +17,23 @@ class BaseModel extends Model
     const CREATED_AT = null;
     const UPDATED_AT = null;
 
+    /**
+     * 设置驼峰访问模型属性
+     * @param string $key
+     * @return mixed
+     */
     public function getAttribute($key)
     {
         $key = Str::snake($key);
         return parent::getAttribute($key);
     }
 
+    /**
+     * 设置驼峰设置属性值
+     * @param string $key
+     * @param mixed $value
+     * @return mixed
+     */
     public function setAttribute($key, $value)
     {
         $key = Str::snake($key);
@@ -101,11 +112,25 @@ class BaseModel extends Model
         return $query;
     }
 
+    /**
+     * 通过条件获取一条记录
+     * @param $condition
+     * @return mixed
+     */
     public static function getOne($condition)
     {
         return self::multiWhere($condition)->first();
     }
 
+    public static function getMany($condition) {
+        return self::multiWhere($condition)->get();
+    }
+
+    /**
+     * 通过条件删除记录
+     * @param $condition
+     * @return mixed
+     */
     public static function deleteWhere($condition)
     {
         return self::multiWhere($condition)->delete();

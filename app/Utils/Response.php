@@ -39,7 +39,17 @@ class Response
         return response()->json(
             [
                 'msg' => $exception->getMessage(),
-//                'msg' => "服务器错误，请稍等片刻！",
+                'code' => $exception->getErrorCode(),
+                'data' => $exception->getErrorResult()
+            ],
+            $exception->getCode()
+        );
+    }
+
+    public static function unknownError(\Exception $exception) {
+        return response()->json(
+            [
+                'msg' => "服务器错误，请稍等片刻！",
                 'code' => $exception->getErrorCode(),
                 'data' => ''
             ],

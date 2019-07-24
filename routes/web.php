@@ -17,7 +17,7 @@ Route::get('/', function () {
 });
 
 //测试路由
-Route::middleware('validator:Auth')->prefix('/')->group(function () {
+Route::prefix('/')->group(function () {
     Route::any('test', 'TestController@test');
 });
 
@@ -49,9 +49,12 @@ Route::middleware('api.auth')->namespace('Admin')->prefix('admin')->group(functi
 
     });
 
-    Route::prefix('/menus')->group(function () {
-        // 获取前端菜单
+    Route::middleware('validator:Menu')->prefix('/menus')->group(function () {
+        // 获取所有系统菜单
         Route::get('getMenus', 'MenuController@getMenus');
+
+        // 获取用户关联的前端菜单
+        Route::get('getUserRoutes', 'MenuController@getUserRoutes');
 
         //添加菜单
         Route::post('add', 'MenuController@add');
@@ -77,6 +80,7 @@ Route::middleware('api.auth')->namespace('Admin')->prefix('admin')->group(functi
         Route::delete('del', 'RoleController@del');
     });
 
+    //TODO 添加参数验证中间件
     Route::prefix('/users')->group(function () {
         // 获取用户列表
         Route::get('getUsers', 'UserController@getUsers');

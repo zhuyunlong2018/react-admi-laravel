@@ -29,6 +29,7 @@ class AdminValidator extends BaseValidator
         $this->message = [
             'required' => ':attribute 为必填项',
         ];
+
         $this->rules = [
 
             //获取管理员列表
@@ -42,7 +43,7 @@ class AdminValidator extends BaseValidator
                 'name' => [
                     'required',
                     'max:255',
-                    $this->getCustomRules("checkAddRepeat")
+                    $this->getCustomRules("checkAddNameRepeat")
                 ],
                 'description' => "required|String|min:6",
             ],
@@ -52,14 +53,19 @@ class AdminValidator extends BaseValidator
                 'name' => [
                     'required',
                     'max:255',
-                    $this->getCustomRules("checkEditRepeat")
+                    $this->getCustomRules("checkEditNameRepeat")
                 ],
                 'description' => "required|String|min:6",
             ],
 
             //删除管理员
             "admin/admins/del" => [
-                'id' => "required|Integer|min:1"
+                'id' => [
+                    "required",
+                    'Integer',
+                    'min:1',
+                    $this->getCustomRules("checkIsSuper"),
+                ]
             ],
 
         ];
@@ -68,20 +74,21 @@ class AdminValidator extends BaseValidator
 
     /**
      * 自定义规则
+     * @param $request
+     * @throws \App\Exceptions\DevException
      */
-    protected function makeCustomRules(): void
+    protected function makeCustomRules($request): void
     {
-        $this->setCustomRules("checkAddRepeat", function ($attribute, $value, $fail) {
-            if (Admin::getOne(["name" => $value])) {
-                $fail($value.' 已存在。');
-            }
-        });
+        //检查添加名称是否存在
+        $this->checkAddRepeat(Admin::class);
 
-        $request = $this->request;
-        $this->setCustomRules("checkEditRepeat", function ($attribute, $value, $fail)
-        use ($request) {
-            if (Admin::getOne(["name" => $value, "id" => ["<>", $request->id]])) {
-                $fail($value.' 已存在。');
+        //检查编辑的名称是否存在
+        $this->checkEditRepeat(Admin::class);
+
+        //检查删除的角色是否为超级管理员
+        $this->setCustomRules("checkIsSuper", function ($attribute, $value, $fail) {
+            if ($value === 1) {
+                $fail('该用户为超级管理权限，不能删除！');
             }
         });
     }

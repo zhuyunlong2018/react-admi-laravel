@@ -71,7 +71,7 @@ class Handler extends ExceptionHandler
             if (config('app.debug')) {
                 return parent::render($request, $exception);
             }
-            return Response::error($exception);
+            return Response::unknownError($exception);
         }
     }
 }

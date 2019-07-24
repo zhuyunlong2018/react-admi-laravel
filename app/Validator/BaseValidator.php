@@ -37,13 +37,14 @@ abstract class BaseValidator
     public function __construct(string $uri, Request $request) {
         $this->uri = $uri;
         $this->request = $request;
-        $this->makeCustomRules();
+        $this->makeCustomRules($this->request);
     }
 
     /**
      * 自定义规则在此地方注册
+     * @param $request
      */
-    abstract protected function makeCustomRules(): void ;
+    abstract protected function makeCustomRules($request): void ;
 
 
     /**
@@ -70,6 +71,39 @@ abstract class BaseValidator
             throw new DevException(['msg' => "验证器自定义规则重复了"]);
         }
         $this->customRules[$rule] = $ruleCall;
+    }
+
+    /**
+     * 检查添加的某个字段是否已存在
+     * @param $model
+     * @param string $name
+     * @throws DevException
+     */
+    protected function checkAddRepeat($model, $name="name") {
+        $strName = ucwords($name);
+        $this->setCustomRules("checkAdd{$strName}Repeat", function ($attribute, $value, $fail)
+        use ($model, $name) {
+            if ($model::getOne([$name => $value])) {
+                $fail($value.' 已存在。');
+            }
+        });
+    }
+
+    /**
+     * 检查编辑的某个字段是否已存在
+     * @param $model
+     * @param string $name
+     * @throws DevException
+     */
+    protected function checkEditRepeat($model, $name="name") {
+        $request = $this->request;
+        $strName = ucwords($name);
+        $this->setCustomRules("checkEdit{$strName}Repeat", function ($attribute, $value, $fail)
+        use ($model, $name, $request) {
+            if ($model::getOne([$name => $value, "id" => ["<>", $request->id]])) {
+                $fail($value.' 已存在。');
+            }
+        });
     }
 
     /**

@@ -10,6 +10,7 @@ namespace App\Http\Controllers\Admin;
 
 
 use App\Http\Controllers\Controller;
+use App\Logic\AuthLogic;
 use App\Logic\RoleLogic;
 use App\Models\Role;
 use App\Utils\Response;
@@ -44,7 +45,12 @@ class RoleController extends Controller
      */
     public function edit(Request $request) {
         $role = Role::find($request->id);
+        $oldPermissions = $role->permissions;
         RoleLogic::update($role, $request);
+        //编辑角色后，后台权限修改，需要刷新缓存
+        if ($oldPermissions != $request->keys) {
+            AuthLogic::refreshAllCache();
+        }
         return Response::result($role);
     }
 

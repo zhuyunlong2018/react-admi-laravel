@@ -12,5 +12,8 @@ namespace App\Models;
 
 class Menu extends BaseModel
 {
+    public function children() {
+        return $this->hasMany(Menu::class, "parent_key", "key");
+    }
 
 }

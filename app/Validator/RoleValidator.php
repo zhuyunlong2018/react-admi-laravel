@@ -8,7 +8,6 @@
 
 namespace App\Validator;
 
-
 use App\Models\Role;
 use Illuminate\Http\Request;
 
@@ -41,7 +40,7 @@ class RoleValidator extends BaseValidator
                 'name' => [
                     'required',
                     'max:255',
-                    $this->getCustomRules("checkAddRepeat")
+                    $this->getCustomRules("checkAddNameRepeat")
                 ],
                 'description' => "required|String|min:6",
             ],
@@ -51,14 +50,20 @@ class RoleValidator extends BaseValidator
                 'name' => [
                     'required',
                     'max:255',
-                    $this->getCustomRules("checkEditRepeat")
+                    $this->getCustomRules("checkEditNameRepeat")
                 ],
                 'description' => "required|String|min:6",
             ],
 
             //删除角色
             "admin/roles/del" => [
-                'id' => "required|Integer|min:1"
+                'id' => [
+                    "required",
+                    'Integer',
+                    'min:1',
+                    $this->getCustomRules("checkBeBound"),
+                    $this->getCustomRules("checkIsSuper"),
+                ]
             ],
 
         ];
@@ -67,20 +72,29 @@ class RoleValidator extends BaseValidator
 
     /**
      * 自定义规则
+     * @param $request
+     * @throws \App\Exceptions\DevException
      */
-    protected function makeCustomRules(): void
+    protected function makeCustomRules($request): void
     {
-        $this->setCustomRules("checkAddRepeat", function ($attribute, $value, $fail) {
-            if (Role::getOne(["name" => $value])) {
-                $fail($value.' 已存在。');
+        //检查添加名称是否存在
+        $this->checkAddRepeat(Role::class);
+
+        //检查编辑的名称是否存在
+        $this->checkEditRepeat(Role::class);
+
+        //检查删除的角色是否被绑定了
+        $this->setCustomRules("checkBeBound", function ($attribute, $value, $fail) {
+            $role = Role::with("admins")->find($value);
+            if ($role && count($role->admins) > 0) {
+                $fail($role->name .' 已绑定管理员，请先解绑才能删除。');
             }
         });
 
-        $request = $this->request;
-        $this->setCustomRules("checkEditRepeat", function ($attribute, $value, $fail)
-        use ($request) {
-            if (Role::getOne(["name" => $value, "id" => ["<>", $request->id]])) {
-                $fail($value.' 已存在。');
+        //检查删除的角色是否为超级管理员角色
+        $this->setCustomRules("checkIsSuper", function ($attribute, $value, $fail) {
+            if ($value === 1) {
+                $fail('该角色为超级管理权限，不能删除！');
             }
         });
     }
