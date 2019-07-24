@@ -3,21 +3,37 @@
 #### 介绍
 ReactAdmin项目适配的后台，使用laravel框架
 
-#### 软件架构
-软件架构说明
+[配套前端ReactAdmin](https://gitee.com/zhuyunlong2018/ReactAdmin)
 
+
+
+#### 本机环境
+
+1. php: v7.2.1
+2. laravel: v5.8
+3. composer: v1.8.5
 
 #### 安装教程
+1. 下载源码和扩展
+```shell
+# git clone https://gitee.com/zhuyunlong2018/ReactAdmin-Laravel.git
 
-1. xxxx
-2. xxxx
-3. xxxx
+# cd ReactAdmin-Laravel
 
-#### 使用说明
+# composer install
+```
+2. 配置数据库
+```shell
+//修改./env和./config/database.php的数据库配置
 
-1. xxxx
-2. xxxx
-3. xxxx
+# php artisan migrate
+```
+
+3. 运行项目
+
+```shell
+# php artisan serve
+```
 
 #### 参与贡献
 

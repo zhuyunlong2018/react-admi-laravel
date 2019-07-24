@@ -73,7 +73,6 @@ class MenuController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function del(Request $request) {
-        //TODO 菜单有下级将无法删除
         $key = $request->input("key");
         Menu::deleteWhere(["key" => $key]);
         return Response::ok();
