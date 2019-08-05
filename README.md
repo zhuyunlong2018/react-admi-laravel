@@ -3,6 +3,8 @@
 #### 介绍
 ReactAdmin项目适配的后台，使用laravel框架
 
+前后端分离，react全家桶+laravel+jwt，细化到API层级后台权限管理
+
 [配套前端ReactAdmin](https://gitee.com/zhuyunlong2018/ReactAdmin)
 
 #### 本机环境
@@ -10,6 +12,7 @@ ReactAdmin项目适配的后台，使用laravel框架
 1. php: v7.2.1
 2. laravel: v5.8
 3. composer: v1.8.5
+4. redis: v3.2.1
 
 #### 安装教程
 1. 下载源码和扩展
@@ -18,20 +21,22 @@ $ git clone https://gitee.com/zhuyunlong2018/ReactAdmin-Laravel.git
 
 $ cd ReactAdmin-Laravel
 
+#注意，php需要安装php_fileinfo扩展
 $ composer install
 ```
 2. 配置数据库
 
 使用migrate：
 ```shell
-#修改./env和./config/database.php的数据库配置
+#1复制./env.example文件为.env文件并修改其中配置参数为自己本地环境
+#2修改./config/database.php的数据库等配置
 
-#新建空数据库lr_manager
+#3新建空数据库lr_manager
 
-#注意，php需要安装php_fileinfo扩展
+#4运行下面命令生成数据库表结构
 $ php artisan migrate
 
-#填充数据
+#5填充数据
 $ php artisan db:seed
 
 ```
