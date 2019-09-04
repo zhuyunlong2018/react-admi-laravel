@@ -43,20 +43,30 @@ $ php artisan db:seed
 不使用migrate的话，可以直接新建空数据库后，将./database/lr_manager.sql导入数据库中
 
 
-3. 运行项目(后台账号：admin,密码: 123456)
+3. 配置秘钥
+
+```shell
+#生成权限key
+$ php artisan key:generate
+
+#生成jwt秘钥
+$ php artisan jwt:secret
+```
+
+4. 运行项目(后台账号：admin,密码: 123456)
 
 ```shell
 $ php artisan serve
 ```
 
 
-4. 已有数据库表结构生成migration文件
+5. 已有数据库表结构生成migration文件
 ```shell
 #注意命令生成了migrations表文件需要删除掉
 $ php artisan migrate:generate
 ```
 
-5. 已有数据表数据导出seed文件
+6. 已有数据表数据导出seed文件
 ```shell
 $ php artisan iseed 表名
 #本项目备份：php artisan iseed admins,roles,users,menus,admin_role
