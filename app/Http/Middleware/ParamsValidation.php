@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: ZhuYunLong2018
+ * Email: 920200256@qq.com
+ * Date: 2019/7/20
+ * Time: 17:31
+ */
 
 namespace App\Http\Middleware;
 
