@@ -81,6 +81,9 @@ $ php artisan iseed 表名--database=数据库名
 $ php artisan migrate:refresh --seed
 ```
 
+#### 代码生成器
+项目使用了foryoufeng/laravel-generator，因为需要对其源码进行修改以适配项目的一些特殊需求，所以不适用composer进行导入
+
 #### 参与贡献
 
 1. Fork 本仓库

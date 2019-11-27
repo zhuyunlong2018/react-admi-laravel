@@ -12,6 +12,25 @@ namespace App\Models;
 
 use Illuminate\Support\Facades\Log;
 
+/**
+ * App\Models\Role
+ *
+ * @property int $id
+ * @property string|null $name 名称
+ * @property string|null $description 描述
+ * @property array $permissions 权限key,逗号隔开
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Admin[] $admins
+ * @property-read int|null $admins_count
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\BaseModel multiWhere($where)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Role wherePermissions($value)
+ * @mixin \Eloquent
+ */
 class Role extends BaseModel
 {
 

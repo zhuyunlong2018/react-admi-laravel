@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -181,6 +181,7 @@ return [
 
         Orangehill\Iseed\IseedServiceProvider::class,
 
+        Foryoufeng\Generator\GeneratorServiceProvider::class
     ],
 
     /*
