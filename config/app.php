@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'PRC',
 
     /*
     |--------------------------------------------------------------------------
@@ -180,7 +180,9 @@ return [
         Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
 
         Orangehill\Iseed\IseedServiceProvider::class,
-
+        /**
+         * 代码生成器
+         */
         Foryoufeng\Generator\GeneratorServiceProvider::class
     ],
 

@@ -22,6 +22,9 @@ return [
     ],
     //difine your custom value
     'customDummys'=>[
-        'DummyAuthor'=>env('DUMMY_AUTHOR','ZhuYunLong2018')
+        'DummyAuthor'=>env('DUMMY_AUTHOR','ZhuYunLong2018'),
+        'DummyEmail' => '920200256@qq.com',
+        'DummyCreateDate' => date("Y-m-d"),
+        'DummyCreateTime' => date("H:i"),
     ]
 ];

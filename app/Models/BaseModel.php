@@ -140,6 +140,7 @@ class BaseModel extends Model
      * 通过条件删除记录
      * @param $condition
      * @return mixed
+     * @throws \Exception
      */
     public static function deleteWhere($condition)
     {

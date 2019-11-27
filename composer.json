@@ -14,7 +14,9 @@
         "laravel/tinker": "^1.0",
         "orangehill/iseed": "^2.6",
         "predis/predis": "^1.1",
-        "tymon/jwt-auth": "1.*@rc"
+        "tymon/jwt-auth": "1.*@rc",
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "doctrine/dbal": "^2.7"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -46,7 +48,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Foryoufeng\\Generator\\": "laravel-generator/src"
         }
     },
     "minimum-stability": "dev",

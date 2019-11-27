@@ -71,8 +71,11 @@ class AuthLogic
         ]);
         $authorities = [];
         foreach ($menus as $menu) {
-            if (!in_array($menu->code, $authorities) && !empty($menu->code)) {
-                $authorities[] = $menu->code;
+            if (!empty($menu->code)) {
+                $code = str_replace(":", "/", $menu->code);
+                if (!in_array($code, $authorities)) {
+                    $authorities[] = $code;
+                }
             }
         }
         if (empty($authorities)) {
@@ -98,6 +101,7 @@ class AuthLogic
      */
     public function refreshCache() {
         if (Redis::exists($this->getAuthKey())) {
+            Redis::del($this->getAuthKey());
             $this->saveAuthoritiesToCache();
         }
     }
@@ -108,6 +112,7 @@ class AuthLogic
      * TODO 若有异步需求，可以修改为生产消费模式
      */
     public static function refreshAllCache() {
+
         //TODO 此处获取的keys值最大数量2000，默认当前登录的管理员不超过此数量
         $keys = Redis::scan(0,'match', self::CACHE_KEY .'*','count',2000);
         $self = null;
