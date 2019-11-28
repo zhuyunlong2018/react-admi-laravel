@@ -11,8 +11,8 @@ namespace App\Http\Middleware;
 
 use App\Exceptions\DevException;
 use App\Exceptions\ValidationException;
+use App\Validator\HandleValidator;
 use Closure;
-use Illuminate\Support\Facades\Validator;
 
 class ParamsValidation
 {
@@ -33,22 +33,9 @@ class ParamsValidation
             throw new DevException();
         }
         $rules = new $RulesClass($request->route()->uri, $request);
-        $validator = Validator::make(
-            $request->input(),
-            $rules->getRules(),
-            $rules->getMessage(),
-            $rules->getCustomAttributes()
-        );
-        if ($validator->fails()) {
-            $messages = $validator->getMessageBag()->getMessages();
-            $message = current($messages);
-            if (is_array($messages)) {
-                $message = current($message);
-            }
-            throw new ValidationException([
-                'msg' => $message
-            ]);
-        }
+
+        HandleValidator::execute($request->input(), $rules);
+
         return $next($request);
     }
 }

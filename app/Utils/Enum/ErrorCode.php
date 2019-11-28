@@ -19,6 +19,8 @@ class ErrorCode
     //未知错误
     const UNKNOWN_ERROR = 6000;
 
+    const WEIXIN_SDK_ERROR = 5050;
+
     //登录错误
     const LOGIN_ERROR = 4001;
 

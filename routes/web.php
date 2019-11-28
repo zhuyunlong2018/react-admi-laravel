@@ -21,6 +21,8 @@ Route::prefix('/')->group(function () {
     Route::any('test', 'TestController@test');
 });
 
+Route::any('/wechat', 'WeChatController@serve');
+Route::any('/qr', 'WeChatController@index');
 
 Route::middleware('validator:Auth')->namespace('Admin')->prefix('admin')->group(function () {
     // 后台登录

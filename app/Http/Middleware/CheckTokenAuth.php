@@ -7,7 +7,7 @@ use App\Logic\AuthLogic;
 use Closure;
 class CheckTokenAuth
 {
-    protected $exclude = [
+    protected $except = [
         "admin/menus/getUserRoutes",
     ];
 
@@ -24,7 +24,7 @@ class CheckTokenAuth
         $authLogic = new AuthLogic($request->user());
         if (
             !$authLogic->checkAuth($request->route()->uri) &&
-            !in_array($request->route()->uri, $this->exclude)
+            !in_array($request->route()->uri, $this->except)
         ) {
             throw new AuthException();
         }

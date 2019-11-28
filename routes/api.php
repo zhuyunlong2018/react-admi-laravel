@@ -24,3 +24,4 @@ Route::get('/', function () {
 
 Route::get('register', 'AuthController@register');
 Route::post('login', 'AuthController@login');
+
